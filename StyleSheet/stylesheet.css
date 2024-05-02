@@ -1,0 +1,9 @@
+#newUserPage ,#existingUserPage,#medicinePage,#recharge
+{
+    display: none;
+}
+#homePage
+{
+    justify-content: center;
+    text-align: center;
+}
