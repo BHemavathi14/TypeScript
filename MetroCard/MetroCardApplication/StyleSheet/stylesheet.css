@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(222, 222, 222);
+}
+
+#newUserPage,#existingUserPage,#dropdown,#topup,#showBalance,#travelHistory,#ticketFairDetails,#ticketBooking,#EditInfoForm
+{
+    display: none;
+}
+
+#AddInfoForm
+{
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid #dddddd;
+    background-color: white;
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    background-color: rgb(184, 240, 240);
+  }
+
+  #homePage
+  {
+    text-align: center;
+    justify-content: center;
+    padding: 5%;
+    margin: 5%;
+  }
+  #homePage button , #newUserPage input
+  {
+    text-align: left;
+    justify-content: center;
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 20%;
+    background-color: cadetblue;
+  }
+
+  #newUserPage
+  {
+    text-align: center;
+    justify-content: left;
+  }
+
+  #newUserPage h3
+  {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #existingUserPage
+  {
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-left: 30%;
+    margin-top: 20%;
+  }
+
+#dropdown
+{
+    display: none;
+    /* display:flex; */
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.dropdown ul
+{
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    height: max-content;
+    
+}
+.dropdown ul li 
+{
+    margin: 0 10px;
+}
+.dropdown ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px 15px;
+
+}
+.button
+{
+    background-color: blue;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.dropdown ul li a:hover
+{
+    background-color: grey;
+}
